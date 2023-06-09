@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Научиться учиться</title>
   </head>
@@ -18,7 +18,7 @@
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете
         использовать в своей жизни?<a
-          class="header__link"
+          class="header__link link"
           href="#"
           rel="noopener"
           >Узнать &#8594;</a
@@ -32,7 +32,7 @@
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
-      <section class="description">
+      <section class="description" aria-label="две колонки">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -58,7 +58,7 @@
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <section class="cards">
+        <div class="cards">
           <div class="cards__item">
             <img
               class="cards__image"
@@ -117,7 +117,7 @@
               кажется, что вы владеете новой темой.
             </p>
           </div>
-        </section>
+        </div>
       </section>
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
@@ -139,7 +139,7 @@
           ></iframe>
         </div>
       </section>
-      <section class="oakley">
+      <section class="oakley" aria-label="две колонки">
         <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
@@ -160,7 +160,7 @@
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a
-          class="feynman__link"
+          class="feynman__link link"
           href="https://vc.ru/life/222360-tehnika-obucheniya-feynmana"
           target="_blank"
           rel="noopener"
@@ -226,7 +226,7 @@
             получить навыки и знания, которые приносят успех в школе, карьере и
             жизни.
           </blockquote>
-          <h4 class="khan__quote-author">Джордж Лукас</h4>
+          <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img
@@ -238,7 +238,7 @@
               href="https://www.labirint.ru/books/483575/"
               target="_blank"
               rel="noopener"
-              class="khan__buy-link"
+              class="khan__buy-link link"
               >Купить книгу &#8594;</a
             >
           </div>
@@ -319,32 +319,32 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
-          <li class="resources__link">
-            <a href="#" target="_blank" rel="noopener">
+          <li>
+            <a class="resources__link link" href="#" target="_blank" rel="noopener">
               <img
               class="resources__logo"
               src="./images/logo/resources-arzamas.svg"
               alt="логотип компании Арзамас"
             /></a>
           </li>
-          <li class="resources__link">
-            <a href="#" target="_blank" rel="noopener">
+          <li>
+            <a class="resources__link link" href="#" target="_blank" rel="noopener">
               <img
               class="resources__logo"
               src="./images/logo/resources-n1.svg"
               alt="логотип компании N+1"
             /></a>
           </li>
-          <li class="resources__link">
-            <a href="#" target="_blank" rel="noopener">
+          <li>
+            <a class="resources__link link" href="#" target="_blank" rel="noopener">
               <img
               class="resources__logo"
               src="./images/logo/resources-strelka.svg"
               alt="логотип компании Strelka"
             /></a>
           </li>
-          <li class="resources__link">
-            <a href="#" target="_blank" rel="noopener">
+          <li>
+            <a class="resources__link link" href="#" target="_blank" rel="noopener">
               <img
               class="resources__logo"
               src="./images/logo/resources-polka.svg"
@@ -368,9 +368,9 @@
           <h3 class="footer__column-heading">О Практикуме</h3>
           <nav>
             <ul class="footer__column-links">
-              <li><a class="footer__column-link" href="#">Главная</a></li>
-              <li><a class="footer__column-link" href="#">Концепция</a></li>
-              <li><a class="footer__column-link" href="#">Наставники</a></li>
+              <li><a class="footer__column-link link" href="#">Главная</a></li>
+              <li><a class="footer__column-link link" href="#">Концепция</a></li>
+              <li><a class="footer__column-link link" href="#">Наставники</a></li>
             </ul>
           </nav>
         </div>
@@ -378,7 +378,7 @@
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link link" href="#">
                 <img
                   class="footer__social-icon"
                   src="./images/youtube-icon.svg"
@@ -388,7 +388,7 @@
               >
             </li>
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link link" href="#">
                 <img
                   class="footer__social-icon"
                   src="./images/vk_color_white.svg"
@@ -398,7 +398,7 @@
               >
             </li>
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link link" href="#">
                 <img
                   class="footer__social-icon"
                   src="./images/tiktok-icon.svg"
